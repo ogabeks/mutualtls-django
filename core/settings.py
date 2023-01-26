@@ -41,6 +41,7 @@ SSL_PRIVATE_KEY = KEY_FILE
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'core.middlewares.ClientCertificateMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
