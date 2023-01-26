@@ -10,9 +10,9 @@ KEY_FILE = os.path.join(BASE_DIR, 'key.pem')
 
 SECRET_KEY = 'django-insecure-p8x%3cmy001j=x5j14fr5rwrypihp7tf$vj6-b8cni3egffbkf'
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 INSTALLED_APPS = [
